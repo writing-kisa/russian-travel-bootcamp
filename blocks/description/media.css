@@ -1,0 +1,103 @@
+@media screen and (min-width: 1280px) {
+  .description__title {
+    margin-left: calc((100% - 984px) / 2);
+  }
+  .description__paragraph {
+    margin-left: calc((100% - 984px) / 2);
+  }
+  .description__stat {
+    margin-left: calc((100% - 984px) / 2);
+    padding-top: 33px;
+    padding-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .description__title {
+    padding-top: 92px;
+  }
+  .description__paragraph {
+    width: 690px;
+  }
+  .description__stat {
+    padding-bottom: 92px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .description__title {
+  margin-left: calc((100% - 928px) / 2);
+  }
+  .description__paragraph {
+    margin-left: calc((100% - 928px) / 2);
+  }
+  .description__stat {
+    margin-left: calc((100% - 928px) / 2);
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .description__title {
+    font-size: 54px;
+    line-height: 58px;
+    text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .description__title {
+    margin-left: 24px;
+    padding-top: 88px;
+  }
+  .description__paragraph {
+    width: 720px;
+    margin-left: 24px;
+  }
+  .description__stat {
+    margin-left: 24px;
+    padding-top: 33px;
+    padding-bottom: 88px;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 767px) {
+  .description__title {
+    margin-left: 20px;
+    padding-top: calc(64px + ((88px - 64px) / 2));
+    /* подбираю значение для шрифта */
+    font-size: 7vw;
+  }
+  .description__paragraph {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+  .description__stat {
+    margin-left: 20px;
+    /* повтор значений */
+    padding-top: 33px;
+    padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .description__title {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: left;
+    margin-left: calc((100% - 288px) / 2);
+    padding-top: 64px;
+  }
+  .description__paragraph {
+    margin-left: calc((100% - 288px) / 2);
+    max-width: 288px;
+  }
+  .description__stat {
+    margin-left: calc((100% - 288px) / 2);
+    padding-top: 34px;
+    padding-bottom: 64px;
+  }
+}

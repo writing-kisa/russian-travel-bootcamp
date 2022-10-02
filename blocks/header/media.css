@@ -1,0 +1,170 @@
+@media screen and (min-width: 1280px) {
+  .header__info {
+    max-width: calc(1280px - (48px * 2));
+    margin-left: calc((100% - (1280px - 48px - 48px))/2);
+    padding-bottom: 56px;
+  }
+  .header__image {
+    width: 984px;
+    height: 615px;
+    margin-right: calc((100% - 984px) / 2);
+    margin-left: calc((100% - 984px) / 2);
+  }
+  .header__caption {
+    margin-left: calc((100% - 984px) / 2);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .header__info {
+    padding-top: 28px;
+  }
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+  .header__language {
+  font-size: 24px;
+  line-height: 28px;
+}
+  .header__title {
+    font-size: 96px;
+    line-height: 100px;
+    width: 720px;
+    max-height: 200px;
+    margin-right: calc((100% - 720px) / 2);
+    margin-left: calc((100% - 720px) / 2);
+    padding-bottom: 32px;
+  }
+  .header__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    width: 640px;
+    margin-right: calc((100% - 640px) / 2);
+    margin-left: calc((100% - 640px) / 2);
+    padding-bottom: 64px;
+  }
+}
+
+
+@media screen and  (min-width: 1024px) and (max-width: 1279px){
+  .header__image {
+    width: 928px;
+    height: 580px;
+    margin-right: calc((100% - 928px) / 2);
+    margin-left: calc((100% - 928px) / 2);
+  }
+  .header__caption {
+    margin-left: calc((100% - 928px) / 2);
+  }
+}
+
+@media screen and  (min-width: 768px) and (max-width: 1279px){
+  .header__info {
+  padding-bottom: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+  }
+}
+
+@media screen and  (min-width: 768px) and (max-width: 1023px) {
+
+  .header__image {
+    width: 100%;
+    min-height: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__caption {
+    margin-left: 24px;
+  }
+
+}
+
+@media all and (min-width: 321px) and (max-width: 767px) {
+  .header__info {
+    padding-top: 22px;
+    padding-bottom: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+  .header__language {
+  font-size: 24px;
+  line-height: 28px;
+}
+.header__title {
+  /* TODO подобрала значение фонт сайза, читерство TODO */
+  font-size: 12vw;
+  /* вычисляю, сколько занимает блок по ширине в vw; calc(720*100/768) (100*288/320)*/
+  /* max-width: 93.75vw;
+  min-width: 90vw; */
+  max-height: 200px;
+  /* margin-right: calc((100% - 720px) / 2);
+  margin-left: calc((100% - 720px) / 2); */
+  padding-bottom: 32px;
+}
+.header__subtitle {
+  font-size: 4vw;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 56px;
+}
+  .header__image {
+    width: 100%;
+    max-height: 480px;
+  }
+  .header__caption {
+    margin-left: 24px;  
+  }
+}
+
+
+
+@media all and (max-width: 320px) {
+  .header__info {
+    max-width: calc(320px - (16px * 2));
+    margin-left: calc((100% - (320px - 16px - 16px))/2);
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+  .header__language {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .header__title {
+    font-size: 40px;
+    line-height: 44px;
+    width: 288px;
+    /* height: 200px; */
+    margin-right: calc((100% - 289px) / 2);
+    margin-left: calc((100% - 288px) / 2);
+    padding-bottom: 16px;
+  }
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    width: 288px;
+    margin-right: calc((100% - 288px) / 2);
+    margin-left: calc((100% - 288px) / 2);
+    padding-bottom: 40px;
+  }
+  .header__image {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+  .header__caption {
+    padding-left: 16px;
+  }
+}

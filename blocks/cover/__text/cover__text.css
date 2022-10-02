@@ -1,0 +1,11 @@
+.cover__text {
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid red; */
+}
+

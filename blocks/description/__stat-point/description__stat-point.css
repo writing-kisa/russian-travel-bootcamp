@@ -1,0 +1,6 @@
+.description__stat-point {
+    font-weight: 400;
+    font-size: 12px;
+    /* я сама высчитала line-height, надо вернуться будет к этому моменту */
+    line-height: 7.5px;
+}

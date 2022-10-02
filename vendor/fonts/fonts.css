@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url(../vendor/fonts/Inter.ttf) format("TrueType"),
+    url(../vendor/fonts/Inter-Black.woff) format("Web Open Font Format"),
+    url(../vendor/fonts/Inter-Black.woff2) format("Web Open Font Format 2");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../vendor/fonts/Inter.ttf) format("TrueType"),
+  url(../vendor/fonts/Inter-Black.woff) format("Web Open Font Format"),
+  url(../vendor/fonts/Inter-Black.woff2) format("Web Open Font Format 2");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-weight: 900;
+}
+

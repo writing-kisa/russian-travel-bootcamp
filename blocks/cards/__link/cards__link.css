@@ -1,0 +1,11 @@
+.cards__link {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    color: #FFFFFF;
+    margin: 0;
+}
+.cards__link:hover {
+    text-decoration: underline;
+}

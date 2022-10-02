@@ -1,0 +1,4 @@
+.gallery__container {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(228px, 1fr)); */
+}

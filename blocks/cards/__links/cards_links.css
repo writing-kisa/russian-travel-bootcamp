@@ -1,0 +1,6 @@
+.cards__links {
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}

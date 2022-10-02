@@ -1,0 +1,11 @@
+@media screen and (min-width: 1280px) {
+    .page {
+    min-width: 1280px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page {
+    max-width: 320px;
+    }
+    }
