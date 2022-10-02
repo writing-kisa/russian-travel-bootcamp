@@ -47,7 +47,7 @@
     .gallery__container {
     margin-left: 20px;
     margin-right: 20px;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     row-gap: 20px;
     padding-bottom: calc(64px + ((88px - 64px) / 2));
 

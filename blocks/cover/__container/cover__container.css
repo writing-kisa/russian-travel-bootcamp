@@ -9,7 +9,7 @@
 .cover__container::before {
     content: "";
     position: absolute;
-    background-image: url("/images/cover-trains.jpg"); 
+    background-image: url("/images/cover-trains.jpg");
     background-size: cover;
     top: 0;
     bottom: 0;
