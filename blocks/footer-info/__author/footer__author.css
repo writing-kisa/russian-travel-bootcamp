@@ -1,0 +1,28 @@
+.footer-info__author {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-info__author {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer-info__info {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .footer-info__author {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-info__author {
+    font-size: 14px;
+  }
+}

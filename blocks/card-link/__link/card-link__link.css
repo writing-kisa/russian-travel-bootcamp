@@ -1,0 +1,18 @@
+.card-link__link {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  text-decoration: none;
+  /* border: 1px solid red; */
+  color: #ffffff;
+  margin: 0;
+}
+.card-link__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .card-link__link {
+    grid-row: 1;
+    grid-column: 2;
+  }
+}

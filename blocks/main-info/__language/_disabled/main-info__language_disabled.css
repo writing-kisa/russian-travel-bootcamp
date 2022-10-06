@@ -1,0 +1,7 @@
+.main-info__language_disabled {
+  text-decoration: none;
+}
+
+.main-info__language_disabled:hover {
+  text-decoration: underline;
+}

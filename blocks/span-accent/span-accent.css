@@ -1,4 +1,5 @@
-.span-accent { 
-    /* нужно определить значение */
-    font-weight: 600; 
+.span-accent {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Inter-Bold";
 }

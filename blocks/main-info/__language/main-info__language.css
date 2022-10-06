@@ -1,0 +1,28 @@
+.main-info__language {
+  font-family: "Inter-Regular";
+  text-decoration: underline;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main-info__language {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 767px) {
+  .main-info__language {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .main-info__language {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

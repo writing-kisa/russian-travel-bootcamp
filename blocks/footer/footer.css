@@ -1,3 +1,22 @@
 .footer {
-    padding-bottom: 24px;
+  padding-bottom: 24px;
+  font-family: "Inter-Regular";
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 64px;
+  }
 }

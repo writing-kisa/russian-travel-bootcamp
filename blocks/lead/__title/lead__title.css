@@ -1,0 +1,44 @@
+.lead__title {
+  font-family: "Inter-Black";
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    width: 720px;
+    max-height: 200px;
+    margin-right: calc((100% - 720px) / 2);
+    margin-left: calc((100% - 720px) / 2);
+    padding-bottom: 32px;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 767px) {
+  .lead__title {
+    /* TODO подобрала значение фонт сайза, читерство TODO */
+    font-size: 12vw;
+    /* вычисляю, сколько занимает блок по ширине в vw; calc(720*100/768) (100*288/320)*/
+    /* max-width: 93.75vw;
+  min-width: 90vw; */
+    max-height: 200px;
+    /* margin-right: calc((100% - 720px) / 2);
+  margin-left: calc((100% - 720px) / 2); */
+    padding-bottom: 32px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    width: 288px;
+    /* height: 200px; */
+    margin-right: calc((100% - 289px) / 2);
+    margin-left: calc((100% - 288px) / 2);
+    padding-bottom: 16px;
+  }
+}

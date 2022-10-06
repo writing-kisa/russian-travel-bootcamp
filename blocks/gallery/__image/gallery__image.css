@@ -1,0 +1,33 @@
+@media screen and (min-width: 1280px) {
+  .gallery__image {
+    width: 284px;
+    height: 213px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .gallery__image {
+    width: 300px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .gallery__image {
+    width: 352px;
+    height: 264px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .gallery__image {
+    width: calc(100vw - 40px);
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery__image {
+    width: 288px;
+    height: 216px;
+  }
+}

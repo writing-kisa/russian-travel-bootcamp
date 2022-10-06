@@ -1,0 +1,25 @@
+.card-link__web-res {
+  font-family: "Inter-Regular";
+  font-size: 12px;
+  /* border: 1px solid red; */
+  color: #aaaaaa;
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .card-link__web-res {
+    width: 456px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-link__web-res {
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card-link__web-res {
+    width: 352px;
+  }
+}

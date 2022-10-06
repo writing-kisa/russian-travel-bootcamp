@@ -1,0 +1,6 @@
+.main-info__languages {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+}

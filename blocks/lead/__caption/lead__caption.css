@@ -1,0 +1,38 @@
+.lead__caption {
+  font-family: "Inter-Regular";
+  font-size: 10px;
+  line-height: 14px;
+  padding-top: 8px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    margin-left: calc((100% - 984px) / 2);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__caption {
+    margin-left: calc((100% - 928px) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}
