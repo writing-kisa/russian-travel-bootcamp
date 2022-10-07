@@ -1,5 +1,7 @@
 .card-link__link {
-  font-family: "Inter-Regular";
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
   text-decoration: none;
   /* border: 1px solid red; */

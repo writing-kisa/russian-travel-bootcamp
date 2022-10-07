@@ -1,5 +1,7 @@
 .description__title {
-  font-family: "Inter-Black";
+  font-family: "Inter";
+  font-weight: 900;
+  font-style: normal;
   margin-top: 0;
   margin-bottom: 0;
 }

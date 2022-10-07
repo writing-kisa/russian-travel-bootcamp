@@ -1,5 +1,7 @@
 .main-info__language {
-  font-family: "Inter-Regular";
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
   text-decoration: underline;
   color: #ffffff;
   margin-top: 0;

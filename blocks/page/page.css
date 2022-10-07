@@ -1,8 +1,7 @@
 .page {
   margin: 0;
   background-color: #2a2c2f;
-  font-family: "Inter-Black", "Inter-Bold", "Inter-Regular", "Helvetica",
-    "Arial", sans-serif;
+  font-family: "Inter", "Helvetica", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
   color: #ffffff;
@@ -13,6 +12,8 @@
     min-width: 1280px;
   }
 }
+
+@media screen and (min-width: 1280px) 
 
 @media (max-width: 320px) {
   .page {

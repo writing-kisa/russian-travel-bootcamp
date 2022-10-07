@@ -9,28 +9,29 @@
 
   <body>
     <div class="page">
+      <header class="main-info">
+        <img
+          class="main-info__logo"
+          src="./images/header-logo.svg"
+          alt="Логотип Россия"
+        />
+        <ul class="main-info__languages">
+          <li>
+            <a href="#" class="main-info__language" lang="en">Ru</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="main-info__language main-info__language_disabled"
+              lang="en"
+              >Eng</a
+            >
+          </li>
+        </ul>
+      </header>
+
       <main class="content">
         <section class="lead">
-          <div class="main-info">
-            <img
-              class="main-info__logo"
-              src="./images/header-logo.svg"
-              alt="Логотип Россия"
-            />
-            <ul class="main-info__languages">
-              <li>
-                <a href="#" class="main-info__language" lang="en">Ru</a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="main-info__language main-info__language_disabled"
-                  lang="en"
-                  >Eng</a
-                >
-              </li>
-            </ul>
-          </div>
           <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.
@@ -316,17 +317,13 @@
 
         <section class="cover">
           <div class="container">
-            <a
-              href="https://stampsy.com/na-elektrichkakh-do-baikala"
-              class="container__title"
-              >До Байкала «на&nbsp;собаках»</a
-            >
-            <a
-              href="https://stampsy.com/na-elektrichkakh-do-baikala"
-              class="container__text"
-              >По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.</a
-            >
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="container__link">
+              <h2 class="container__title">До Байкала «на&nbsp;собаках»</h2>
+              <p class="container__text">
+                По мотивам учебной темы о Транссибе — путешествие от столицы до
+                Байкала на электричках.
+              </p>
+            </a>
           </div>
         </section>
       </main>
