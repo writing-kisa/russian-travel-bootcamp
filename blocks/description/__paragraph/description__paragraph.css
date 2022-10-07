@@ -1,7 +1,7 @@
 .description__paragraph {
   font-family: "Inter";
   font-weight: 400;
-  font-style: normal;  
+  font-style: normal;
   font-size: 16px;
   line-height: 26px;
   margin-top: 0;
@@ -9,7 +9,41 @@
   padding-top: 40px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 2000px) {
+  .description__paragraph {
+    margin-left: calc((100% - 984px) / 2);
+    width: 690px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .description__paragraph {
+    margin-left: calc((100% - 928px) / 2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .description__paragraph {
+    width: 720px;
+    margin-left: 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .description__paragraph {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .description__paragraph {
+    margin-left: calc((100% - 288px) / 2);
+    max-width: 288px;
+  }
+}
+
+/* @media screen and (min-width: 1280px) {
   .description__paragraph {
     margin-left: calc((100% - 984px) / 2);
   }
@@ -46,4 +80,4 @@
     margin-left: calc((100% - 288px) / 2);
     max-width: 288px;
   }
-}
+} */
