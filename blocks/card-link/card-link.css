@@ -1,29 +1,27 @@
 .card-link {
-  /* border: 1px solid greenyellow; */
   display: flex;
   flex-direction: column;
   row-gap: 12px;
   margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 2000px) {
   .card-link {
     justify-content: flex-end;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .card-link {
-    padding-top: 32px;
     width: 288px;
     margin-left: 20px;
+    /* border: 1px solid yellowgreen; */
   }
 }
 
 @media (max-width: 320px) {
   .card-link {
-    padding-top: 32px;
-    /* border: 1px solid red; */
+    /* padding-top: 32px; */
     width: 288px;
     margin-left: calc((100% - 288px) / 2);
   }

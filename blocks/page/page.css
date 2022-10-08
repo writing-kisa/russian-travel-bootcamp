@@ -4,19 +4,8 @@
   font-family: "Inter", "Helvetica", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: #ffffff;
 }
 
-@media screen and (max-width: 2000px) {
-  .page {
-    max-width: 2000px;
-  }
-}
 
-@media screen and (min-width: 1280px) 
-
-@media (max-width: 320px) {
-  .page {
-    max-width: 320px;
-  }
-}
