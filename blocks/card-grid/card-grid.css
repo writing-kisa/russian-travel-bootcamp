@@ -53,7 +53,13 @@
     row-gap: 32px;
     margin-left: 0;
     margin-right: 0;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-grid {
+    align-items: flex-start;
   }
 }
