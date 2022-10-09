@@ -52,5 +52,8 @@
     flex-direction: column;
     row-gap: 32px;
     margin-left: 0;
+    margin-right: 0;
+    border: 2px solid yellowgreen;
+    align-items: center;
   }
 }

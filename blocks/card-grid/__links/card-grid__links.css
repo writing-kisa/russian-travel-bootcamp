@@ -14,6 +14,14 @@
   }
 }
 
+@media screen and (max-width: 707px) {
+  .card-grid__links {
+    margin-left: 0;
+    align-items: center;
+  }
+}
+
+
 @media (max-width: 320px) {
   .card-grid__links {
     margin-left: 16px;

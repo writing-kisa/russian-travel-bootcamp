@@ -33,8 +33,9 @@
 
 @media screen and (max-width: 707px) {
   .card-grid__title {
-    align-self: start;
-    margin: 0 20px;
+    border: 1px solid red;
+    text-align: center;
+    /* margin: 0 20px; */
   }
 }
 

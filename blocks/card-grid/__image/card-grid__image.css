@@ -19,7 +19,7 @@
 @media (max-width: 707px) {
   .card-grid__image {
     width: 300px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 }
 
