@@ -7,7 +7,6 @@
 @import url("../blocks/header/__languages/header__languages.css");
 @import url("../blocks/header/__language/header__language.css");
 @import url("../blocks/header/__language/_disabled/header__language_disabled.css");
-@import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__image/lead__image.css");

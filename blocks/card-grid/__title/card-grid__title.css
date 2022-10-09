@@ -1,5 +1,5 @@
 .card-grid__title {
-  font-family: "Inter";
+  font-family: "Inter", "Helvetica", "Arial", sans-serif;
   font-weight: 900;
   font-style: normal;
   margin: 0;

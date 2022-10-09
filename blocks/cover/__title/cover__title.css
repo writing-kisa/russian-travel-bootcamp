@@ -1,20 +1,17 @@
 .cover__title {
-  font-family: "Inter";
+  font-family: "Inter", "Helvetica", "Arial", sans-serif;
   font-weight: 900;
   font-style: normal;
   margin: 0;
   color: white;
   text-align: center;
   z-index: 2;
-  /* border: 1px solid yellowgreen; */
+  font-size: 72px;
+  line-height: 1.1;
+  max-width: 560px;
+  width: 100%;
 }
 
-@media screen and (max-width: 2000px) {
-  .cover__title {
-    font-size: 72px;
-    width: 560px;
-  }
-}
 
 @media (max-width: 767px) {
   .cover__title {
@@ -25,14 +22,13 @@
 @media (max-width: 380px) {
   .cover__title {
     font-size: 42px;
-    width: min-content;
+    max-width: min-content;
   }
 }
 
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
-    width: 288px;
-    /* height: 70px; */
+    max-width: 288px;
   }
 }

@@ -1,6 +1,6 @@
 .footer {
   padding-bottom: 24px;
-  font-family: "Inter-Regular";
+  font-family: "Inter", "Helvetica", "Arial", sans-serif;
   display: flex;
   margin-left: calc((100% - 1184px) / 2);
   margin-right: calc((100% - 1184px) / 2);
