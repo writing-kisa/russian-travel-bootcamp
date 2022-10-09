@@ -11,8 +11,12 @@
   line-height: 1.25;
 }
 
+.footer__link:last-child {
+  padding-right: 18px;
+}
+
 .footer__link:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

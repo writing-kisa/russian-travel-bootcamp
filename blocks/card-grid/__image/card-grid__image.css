@@ -1,10 +1,8 @@
-@media screen and (max-width: 2000px) {
   .card-grid__image {
     width: 460px;
     grid-row: 2;
     grid-column: 1;
   }
-}
 
 @media screen and (max-width: 1279px) {
   .card-grid__image {
@@ -21,14 +19,15 @@
 @media (max-width: 707px) {
   .card-grid__image {
     width: 300px;
-    margin-left: 20px; 
+    margin-left: 20px;
   }
 }
 
 @media (max-width: 320px) {
   .card-grid__image {
     width: 100%;
-    margin: 0;
+    width: 320px;
+    margin-left: 0;
   }
 }
 

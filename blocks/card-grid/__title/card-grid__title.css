@@ -3,18 +3,15 @@
   font-weight: 900;
   font-style: normal;
   margin: 0;
-  /* border: 1px solid yellowgreen; */
+  font-size: 72px;
+  max-width: 460px;
+  width: 100%;
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
+  line-height: 1.1;
 }
 
-@media screen and (max-width: 2000px) {
-  .card-grid__title {
-    font-size: 72px;
-    max-width: 460px;
-    grid-row: 1;
-    grid-column: 1;
-    align-self: end;
-  }
-}
 
 @media screen and (max-width: 1023px) {
   .card-grid__title {
@@ -44,6 +41,6 @@
 @media (max-width: 320px) {
   .card-grid__title {
     font-size: 32px;
-    margin-left: calc((100% - 288px) / 2);
+    margin-left: 16px;
   }
 }

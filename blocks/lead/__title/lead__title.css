@@ -16,6 +16,8 @@
 
 @media all and (max-width: 767px) {
   .lead__title {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 68px;
     line-height: 1.1;
     padding-bottom: 24px;

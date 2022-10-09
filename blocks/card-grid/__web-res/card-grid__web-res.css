@@ -5,10 +5,13 @@
   font-size: 12px;
   color: #aaaaaa;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
+
 @media screen and (min-width: 1024px) {
   .card-grid__web-res {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
@@ -21,6 +24,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .card-grid__web-res {
-    width: 352px;
+    max-width: 352px;
   }
 }

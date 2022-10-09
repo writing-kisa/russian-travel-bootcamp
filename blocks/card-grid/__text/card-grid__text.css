@@ -1,12 +1,7 @@
 .card-grid__text {
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (max-width: 2000px) {
-  .card-grid__text {
-    gap: 26px;
-  }
+  gap: 26px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -17,22 +12,19 @@
 
 @media screen and (max-width: 767px) {
   .card-grid__text {
-    /* /* border: 1px solid yellowgreen; */
-    margin-left: 20px; 
+    margin-left: 20px;
   }
 }
 
 @media screen and (max-width: 707px) {
   .card-grid__text {
-    /* /* border: 1px solid yellowgreen; */
-    padding-right: 20px; 
+    padding-right: 20px;
   }
 }
 
 
 @media (max-width: 320px) {
   .card-grid__text {
-    padding-top: 32px;
-    margin-left: calc((100% - 288px) / 2);
+    margin-left: 16px;
   }
 }

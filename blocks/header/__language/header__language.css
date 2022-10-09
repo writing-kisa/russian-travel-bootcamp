@@ -9,10 +9,10 @@
 }
 
 .header__language:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 520px) {
   .header__language {
     font-size: 18px;
     line-height: 1.11;

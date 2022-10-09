@@ -3,7 +3,7 @@
   font-weight: 400;
   font-style: normal;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
 }
 
@@ -23,7 +23,6 @@
 
 @media screen and (max-width: 767px) {
   .footer__author {
-    font-size: 14px;
     line-height: 1;
   }
 }
