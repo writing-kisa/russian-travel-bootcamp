@@ -1,5 +1,0 @@
-@media screen and (min-width: 1280px) {
-  .card-grid_size_small {
-    grid-template-rows: 76px 460px;
-  }
-}

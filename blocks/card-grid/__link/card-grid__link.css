@@ -1,0 +1,19 @@
+.card-grid__link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0;
+}
+.card-grid__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .card-grid__link {
+    grid-row: 1;
+    grid-column: 2;
+  }
+}

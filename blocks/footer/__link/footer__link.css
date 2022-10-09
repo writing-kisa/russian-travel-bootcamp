@@ -1,0 +1,27 @@
+.footer__link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  padding-right: 18px;
+}
+
+.footer__link:hover {
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+  }
+}
