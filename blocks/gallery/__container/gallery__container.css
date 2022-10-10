@@ -41,7 +41,6 @@
 @media (max-width: 320px) {
   .gallery__container {
     margin-left: calc((100% - 288px) / 2);
-    grid-template-columns: 1fr;
     gap: 12px;
     padding-bottom: 64px;
   }

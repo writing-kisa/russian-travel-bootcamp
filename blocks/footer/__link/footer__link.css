@@ -12,7 +12,7 @@
 }
 
 .footer__link:last-child {
-  padding-right: 18px;
+  padding-right: 0;
 }
 
 .footer__link:hover {

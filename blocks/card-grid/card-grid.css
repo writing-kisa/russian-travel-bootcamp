@@ -37,7 +37,6 @@
 
 @media screen and (max-width: 767px) {
   .card-grid {
-    column-gap: 28px;
     max-width: calc(100% - 24px - 24px);
     grid-template-columns: 340px auto;
     margin-left: 24px;
@@ -53,7 +52,6 @@
     row-gap: 32px;
     margin-left: 0;
     margin-right: 0;
-    /* border: 2px solid yellowgreen; */
     align-items: center;
   }
 }
@@ -61,5 +59,6 @@
 @media screen and (max-width: 320px) {
   .card-grid {
     align-items: flex-start;
+    padding-bottom: 50px;
   }
 }
