@@ -8,4 +8,4 @@
 
 В следующих итерациях планирую разобраться, как следует подбирать незаданные значения для марджинов, шрифтов и размеров картинок.
 
-Ссылка на GitHub: https://github.com/writing-kisa/russian-travel-bootcamp.
+Ссылка на GitHub: https://github.com/writing-kisa/russian-travel-bootcamp.git.
